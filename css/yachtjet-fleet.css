@@ -1,0 +1,54 @@
+.yachtjet-fleet-section {
+    border-radius: 24px;
+    width: 1180px;
+    height: 675px;
+    margin: 0 auto;
+    background: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+}
+
+.yachtjet-fleet-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yachtjet-title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin: 50px 189px 66px;
+}
+
+.yachtjet-descr-container {
+    margin: 50px 50px 100px;
+}
+
+.yachtjet-descr {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    padding-bottom: 26px;
+}
+
+.yachtjet-descr-two {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #040306;
+}
+
+.yachtjet-fleet-img {
+    border-radius: 0 24px 0 0;
+    width: 1180px;
+    height: 470px;
+}

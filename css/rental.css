@@ -1,0 +1,58 @@
+.rental {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 150px auto;
+    align-items: flex-start;
+}
+
+.rental-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.rental-title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    padding-bottom: 50px;
+}
+
+.rental-form {
+    width: 472px;
+    height: 332px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.rental-input {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    padding: 18px 388px 18px 18px;
+    width: 472px;
+    height: 54px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: rgba(251, 251, 251, 0.4);
+    background-color: #0E1823;
+}
+
+.rental-input-comment {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    padding: 18px 389px 80px 18px;
+    width: 472px;
+    height: 116px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: rgba(251, 251, 251, 0.4);
+    background-color: #0E1823;
+}

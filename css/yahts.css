@@ -1,0 +1,118 @@
+.yacht {
+    padding: 301px 0;
+}
+
+.yacht-title {
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    width: 714px;
+    margin: 0 auto 75px;
+
+}
+
+.yahts-list {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.yachts-list-item {
+    border-radius: 24px;
+    background: #fbfbfb;
+    padding: 16px 0 32px;
+    width: calc((100% - 50px) / 3);
+}
+
+.yachts-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.yachts-item-text {
+    padding: 32px 32px 0;
+}
+
+.yachts-item-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.yachts-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #1b414b;
+    width: 176px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.yachts-item-category {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.yahts-table {}
+
+.yachts-table-item {
+    display: flex;
+    gap: 145px;
+    margin-bottom: 6px;
+}
+
+.yachts-table-category {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
+    width: 70px;
+}
+
+.yachts-table-descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #040306;
+    text-align: left;
+}
+
+.yachts-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.10;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    border-radius: 15px;
+    padding: 16px 40px;
+    width: 179px;
+    height: 52px;
+    display: flex;
+    white-space: nowrap;
+}
+
+.yachts-link:hover,
+.yachts-link:active {
+    background-color: #1b414b;
+}
