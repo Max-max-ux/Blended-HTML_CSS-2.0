@@ -27,12 +27,13 @@
     display: flex;
     flex-direction: column;
     gap: 18px;
+    margin-bottom: 50px;
 }
 
 .rental-input {
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 12px;
-    padding: 18px 388px 18px 18px;
+    padding: 18px;
     width: 472px;
     height: 54px;
     font-family: var(--font-family);
@@ -46,7 +47,7 @@
 .rental-input-comment {
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 12px;
-    padding: 18px 389px 80px 18px;
+    padding: 18px;
     width: 472px;
     height: 116px;
     font-family: var(--font-family);
@@ -55,4 +56,70 @@
     line-height: 129%;
     color: rgba(251, 251, 251, 0.4);
     background-color: #0E1823;
+}
+
+.rental-input::placeholder,
+.rental-input-comment::placeholder {
+    color: rgba(251, 251, 251, 0.4);
+    transition: opacity 0.3s ease;
+}
+
+.rental-input:focus::placeholder,
+.rental-input-comment:focus::placeholder {
+    opacity: 0;
+}
+
+/* .rental-input:active::placeholder,
+.rental-input-comment:active::placeholder {
+    opacity: 0;
+} */
+
+.rental-btn {
+    border-radius: 15px;
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
+    background: #1b414b;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+
+
+.rental-btn {
+    width: 194px;
+    height: 56px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+
+    background: linear-gradient(90deg,
+            #1b4d5a,
+            #2f8ea0,
+            #93d8e8,
+            #2f8ea0,
+            #1b4d5a);
+    background-size: 200% 100%;
+
+    transition: transform 0.3s ease;
+}
+
+.rental-btn:hover {
+    animation: gradientMove 2s linear infinite;
+    transform: translateY(-2px);
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 200% 50%;
+    }
 }
