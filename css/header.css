@@ -1,16 +1,17 @@
 .header {
     background-color: #FBFBFB;
-    margin: 32px 100px 155px;
+    margin: 32px auto 155px;
     border: 1px solid #fbfbfb;
     border-radius: 8px;
+    width: 1080px;
+    height: 48px;
 }
 
 .header-container {
-    width: 1080px;
-    height: 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1080px;
 }
 
 .header-logo {
@@ -52,13 +53,10 @@
     align-items: center;
     justify-content: center;
     background-color: #1B414B;
-    border-radius: 50%;
+    border-radius: 7px;
 }
 
-/* .header-nav-item:hover {
-    background-color: #1B414B;
-} */
-
+.header-nav-item:hover,
 .header-nav-item:active {
     background-color: #1B414B;
 }
@@ -80,4 +78,6 @@
     justify-content: center;
 }
 
-.link-item-social {}
+.icons-instagram {
+    background-color: #1B414B;
+}

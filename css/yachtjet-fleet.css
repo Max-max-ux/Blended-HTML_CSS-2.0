@@ -10,8 +10,11 @@
 
 .yachtjet-fleet-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: baseline; */
+    /* justify-content: space-between; */
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .yachtjet-title {
@@ -21,11 +24,11 @@
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #1b414b;
-    margin: 50px 189px 66px;
+    padding-right: 189px;
 }
 
 .yachtjet-descr-container {
-    margin: 50px 50px 100px;
+    margin-bottom: 100px;
 }
 
 .yachtjet-descr {
