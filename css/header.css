@@ -1,6 +1,7 @@
 .header {
     background-color: #FBFBFB;
     margin: 32px auto 155px;
+    /* не знаю чому не пушиться */
     border: 1px solid #fbfbfb;
     border-radius: 8px;
     width: 1080px;
